@@ -1,0 +1,26 @@
+[
+    {
+        "package": "Basic",
+        "price": "19.99",
+        "storage": "500 GB",
+        "user": "2",
+        "sendup": "3",
+        "theme": "primary"
+    },
+    {
+        "package": "Professional",
+        "price": "24.99",
+        "storage": "1 TB",
+        "user": "5",
+        "sendup": "10",
+        "theme": "secondary"
+    },
+    {
+        "package": "Master",
+        "price": "39.99",
+        "storage": "2 TB",
+        "user": "10",
+        "sendup": "20",
+        "theme": "primary"
+    }
+]

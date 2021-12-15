@@ -1,0 +1,103 @@
+@import "./Variable.scss";
+
+.card-wrapper {
+  margin-bottom: 2rem;
+
+  .pricing-card {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+
+    .package {
+      font-size: 1.1rem;
+    }
+
+    .dollar {
+      font-size: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+
+    .price {
+      font-size: 4rem;
+    }
+
+    p {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .learnmore-btn {
+      margin-top: 1.5rem;
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 5px;
+      border: none;
+      letter-spacing: 2px;
+    }
+  }
+
+  .pricing-card-primary {
+    background-color: $white;
+    color: $dark-grayish-blue;
+
+    .package {
+      color: $grayish-blue;
+    }
+
+    p {
+      color: $grayish-blue;
+    }
+
+    hr {
+      border: 1px solid $light-grayish-blue;
+    }
+
+    .learnmore-btn {
+      background: $purple-gradient;
+      color: $white;
+    }
+
+    .learnmore-btn:hover {
+        background: transparent;
+        color: $purple;
+        outline: 1px solid $purple;
+    }
+  }
+
+  .pricing-card-secondary {
+    background: $purple-gradient;
+    color: $white;
+
+    hr {
+      border: 1px solid $white;
+    }
+
+    .learnmore-btn {
+      background: $white;
+      color: $purple;
+    }
+
+    .learnmore-btn:hover {
+        background: transparent;
+        color: $white;
+        outline: 1px solid $white;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+
+    .pricing-card-secondary {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+}
